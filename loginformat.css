@@ -1,0 +1,56 @@
+html{
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #700143;
+    color:#cfd78c;
+}
+
+body{
+    width: 500px;
+    height: 600px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 15px;
+    color: #cfd78c;
+    padding: 10px, 10px, 10px, 10px;
+    align-items: right;
+}
+.entrance{
+    background-color: #700143;
+    color: #cfd78c;
+    font-size: medium;
+    padding: 10%;
+    margin: 10%;
+    border: 3px solid #f9f6bd;
+    box-shadow: 0 0 15px #f9f6bd;
+    border-radius: 5px;
+}
+
+.peak{
+    background-color: #cfd78c;
+    font-style: italic ;
+    color: #700143;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+    transition: color ease 0.10s, background-color ease 0.10s;
+}
+
+.peak:hover{
+    background-color: #700143;
+    color: #cfd78c;
+}
+
+.login{
+    background-color: #cfd78c;
+    font-weight: bold;
+    color: #700143;
+    padding: 5px;
+    margin : 5%;
+    cursor : pointer;
+    transition: color ease 0.10s, background-color ease 0.10s;
+}
+.login:hover{
+    background-color: #700143;
+    color: #cfd78c;
+}

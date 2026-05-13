@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <title>Log In Page | Finals</title>
+    <link rel="stylesheet" href="loginformat.css">
+    <link rel="icon" href="caticon.jpg" type="image/jpeg">
+
+<head>
+    <h1 style="font-size: 100px; text-align: right;">Welcome!</h1>
+</head>
+<body style="align-items: right;">
+    <h1 class="entrance"><span style="font-size: 150%; font-weight: bolder; text-align: left;">Please log in to continue</span><br><br>
+    <form  action="LoginFinals.html" method="post">
+        <label for="username">Username: </label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" required><br>
+        
+        <button class="peak"type="button" onclick="togglepassword()">see password</button>
+            <script>
+                function togglepassword(){
+                    const pwd = document.getElementById("password");
+                    pwd.type = pwd.type === "password"? "text" : "password";
+                }
+            </script>
+        <button class="login" type="submit" onclick="next()">Continue</button>
+            <script>
+                function next(){
+                    window.location.href = "1st page.html";
+                }
+            </script>
+    </form>
+    </h1>
+</body>
+</html>

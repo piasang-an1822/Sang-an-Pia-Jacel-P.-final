@@ -1,0 +1,27 @@
+button{
+    background-color: #700134;
+    color: #f9f6bd;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    padding: 2%;
+    margin-block: 5px;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.button{
+    background-color: #cfd78c;
+    color: #700134;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    padding:2%;
+    height: fit-content;
+    width: fit-content;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: transparent;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: transparent;
+    color: #f9f6bd;
+}

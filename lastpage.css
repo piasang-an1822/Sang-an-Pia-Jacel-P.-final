@@ -1,0 +1,202 @@
+.spacing{
+            display: grid;
+            grid-template-columns: 30% 30% 30% ;
+            font-family:'Times New Roman', Times, serif;
+            margin-right: auto;
+        }
+.lowerspacing{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: auto;
+        }
+
+.amazon{
+    background-color: rgb(255,216,20);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.amazon:hover{
+    background-color: darkgoldenrod;
+}
+
+.amazon:active{
+    opacity: 0.2;
+}
+
+.bootstrap{
+    background-color: rgb(121,82,179);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right:10px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+    .bootstrap:hover{
+        opacity: 0.8;
+    } 
+    .bootstrap:active{
+        opacity: 0.5;
+    } 
+
+
+.bootstrap-invert{
+    background-color: white;
+    color: rgb(108,117,125);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    border: 1px solid rgb(108,117,125);
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color opacity 0.15s;
+}
+
+    .bootstrap-invert:hover{
+        background-color: rgb(108,117,125);
+        color: white;
+    }
+    .bootstrap-invert:active{
+        opacity:1.0;
+    }
+
+.github{
+    background-color: rgb(46,164,79);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.github:hover{
+    box-shadow: 10px 10px 15px darkgreen;
+}
+
+.github:active{
+    opacity: 0.2;
+}
+
+.linkedin{
+    background-color: rgb(10,102,194);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    width: 400px;
+    height: 40px; 
+    padding: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: opacity 0.15s
+}
+
+.linkedin:hover{
+    opacity: 0.8;
+}
+.linkedin:active{
+    opacity: 0.5;
+}
+
+
+.linkedin-invert{
+    background-color: white;
+    color: rgb(10,102,194);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid rgb(10,102,194);
+    border-radius: 50px;
+    width: 100px;
+    height: 40px; 
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.linkedin-invert:hover{
+    opacity: 0.5;
+}
+
+.linkedin-invert:active{
+    opacity: 0.5;
+    width:120px;
+}
+
+.uber-button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+    transition: opacity 0.15s
+}
+
+.uber-button:hover{
+    opacity: 0.5;
+}
+
+.uber-button:active{
+    opacity: 0.2;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #f9f6bd;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    font-family:'Times New Roman', Times, serif;
+    margin-right: auto;
+    font-weight: bold; 
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#f9f6bd; 
+    height: fit-content; 
+    width: cover;
+    align-items: center;
+    border-radius: 20px;
+    background-image: url(cat.jpg); 
+    background-size: cover;
+    box-shadow: 0 0 20px #700143;
+}

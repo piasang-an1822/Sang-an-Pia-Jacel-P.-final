@@ -1,0 +1,110 @@
+.spacing{
+            display: grid;
+            grid-template-columns: 30% 30% 30% ;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-right: auto;
+        }
+.lowerspacing{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: auto;
+        }
+
+.amazon{
+    background-color: rgb(255,216,20);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    width: 300px;
+    height: 40px;
+}
+
+.bootstrap{
+    background-color: rgb(121,82,179);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right:10px;
+}
+.bootstrap-invert{
+    background-color: white;
+    color: rgb(108,117,125);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    border: 1px solid rgb(108,117,125);
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.github{
+    background-color: rgb(46,164,79);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+}
+
+.linkedin{
+    background-color: rgb(10,102,194);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    width: 400px;
+    height: 40px; 
+    padding: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+    margin-right: 10px
+}
+.linkedin-invert{
+    background-color: white;
+    color: rgb(10,102,194);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid rgb(10,102,194);
+    border-radius: 50px;
+    width: 100px;
+    height: 40px; 
+    padding: 10px;
+}
+
+.uber-button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+body{
+    background-image: url(bats.jpg);
+    color: #f9f6bd;
+    font-family: 'Times New Roman', Times, serif;
+}
