@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <link rel="icon" href="caticon.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="paginationformat.css">
+    <link rel="stylesheet" href="image audio.css">
+
+<body>
+<h1 class="glow"><marquee>My Playlist</marquee></h1>
+    <center>
+        <div class="block">
+        <img src="silly.jpg" alt="Dance Cat" style="width: 400px; height: fit-content;border-radius: 50px;"><p class="button"> Twenty-one Pilots | <a style="font-weight: bolder;"> Drag Path</a> | Breach </p>
+        <img src="collar.jpg" alt="collar" style="width: 50px; height: 50px; border-radius: 5px;">
+        <audio controls>
+        <source src="Twenty One Pilots - Drag Path.mp3" type="audio/mpeg">
+        </audio>
+        <img src="collar.jpg" alt="collar" style="width: 50px; height: 50px; border-radius: 5px;">
+        </div>
+    </center>
+<div style="align-items: right;">
+    <img src="Dance Cat GIF.gif" alt="Dance Cat" style="width: 100px; height: 100px;border-radius: 50px;"><a class="button" href="https://youtu.be/m0BFZkPsoWY" target="blank">Drag Path Official Music Video</a><img src="Dance Cat GIF.gif" alt="Dance Cat" style="width: 100px; height: 100px; border-radius: 50px;">
+</div>
+</pre>
+</body>
+
+    <div >
+            <center>
+                <button onclick="prev()">Go Back</button>
+                <a href="1st page.html" class="button"> I </a>
+                <a href="2nd page.html" class="button"> II </a>
+                <a href="3rd page.html" class="button"> III </a>
+                <a href="4th page.html" class="button"> IV </a>
+                <button onclick="next()">Next Page</button>
+
+                <script>
+                function next(){
+                    window.location.href = "3rd page.html";
+                }
+                function prev(){
+                    window.location.href = "1st page.html";
+                }
+            </script>
+            </center>
+        </div> 
+</html>
