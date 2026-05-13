@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FINALS</title>
+
+<link rel="icon" href="caticon.jpg" type="image/jpeg">
+
+
+<link rel="stylesheet" href="loginformat.css">
+<link rel="stylesheet" href="paginationformat.css">
+<link rel="stylesheet" href="heropageformat.css">
+<link rel="stylesheet" href="image audio.css">
+<link rel="stylesheet" href="basicformat.css">
+<link rel="stylesheet" href="lastpage.css">
+
+<style>
+
+.page {
+    display: none;
+}
+.page.active {
+    display: block;
+}
+</style>
+</head>
+
+<body>
+
+<div id="loginPage" class="page active">
+    
+    <h1 class="welcome">Welcome!</h1>
+
+    <h1 class="entrance">
+        <span style="font-size:150%; font-weight:bolder;">
+            Please log in to continue
+        </span>
+
+        <br><br>
+
+        <label>Username:</label>
+        <input type="text" id="username">
+
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password">
+
+        <br><br>
+
+        <button type="button" onclick="togglePassword()" class="button">See Password</button>
+        <button type="button" onclick="showPage(1)" class="button">Continue</button>
+    </h1>
+
+</div>
+
+
+<div id="page1" class="page">
+     <div class="gridformat">
+
+    <div class="header">
+        Welcome to <br>My Compilation<br>
+        for Web Design
+
+        <br>
+        <img src="girl.jpg" style="width:100%; margin-left: 10px; border-radius: 10px;">
+    </div>
+
+    <div class="divider">
+        <a>This project was made by <br>
+        <b>Pia Jacel P. Sang-an</b><br>
+        Class 3-B<br></a>
+
+        <a><img src="kit.jpg" style="border-radius: 10px; width: 50%"></a>
+    </div>
+
+
+    </div>
+    <div class="pagination">
+        <button onclick="showPage(0)" class="button">Go Back</button>
+        <button onclick="showPage(1)" class="button">I</button>
+        <button onclick="showPage(2)" class="button">II</button>
+        <button onclick="showPage(3)" class="button">III</button>
+        <button onclick="showPage(4)" class="button">IV</button>
+        <button onclick="showPage(2)" class="button">Next</button>
+    </div>
+
+</div>
+
+
+<div id="page2" class="page">
+
+    <h1 class="glow"><marquee>My Playlist</marquee></h1>
+    <center>
+    <div class="block">
+    <img src="silly.jpg" style="width:300px; border-radius:20px;">
+
+    <p>Twenty One Pilots - Drag Path</p>
+
+    <audio controls>
+        <source src="Twenty One Pilots - Drag Path.mp3" type="audio/mpeg">
+    </audio>
+
+    <br><br>
+    </div>
+    </center>
+
+    <center>
+    <a class="button" href="https://youtu.be/m0BFZkPsoWY" target="_blank"><img src="Dance Cat GIF.gif" style="border-radius: 50%; width: 10%">
+        Watch Official Video<img src="Dance Cat GIF.gif" style="border-radius: 50%; width: 10%">
+    </a>
+    </center>
+    <div class="pagination">
+        <button onclick="showPage(1)" class="button">Back</button>
+        <button onclick="showPage(1)" class="button">I</button>
+        <button onclick="showPage(2)" class="button">II</button>
+        <button onclick="showPage(3)" class="button">III</button>
+        <button onclick="showPage(4)" class="button">IV</button>
+        <button onclick="showPage(3)" class="button">Next</button>
+    </div>
+
+</div>
+
+
+<div id="page3" class="page">
+    <div>
+
+    <pre style="font-weight:bold;">
+Pia Jacel P. Sang-an
+BSGD 3-B
+Web Design Activity
+    </pre>
+
+    </div >
+
+    <div class="spacing">
+    <button class="uber-button">Uber</button>
+    <button class="amazon">Amazon</button>
+    <button class="github">GitHub</button>
+    </div>
+
+    <div class="lowerspacing">
+        <a><button class="bootstrap">Get started</button><button class="bootstrap-invert">Download</button></a>
+        <a><button class="linkedin">Apply to company website</button><button class="linkedin-invert">Save</button></a>
+    </div>
+    <div class="pagination">
+        <button onclick="showPage(2)" class="button">Back</button>
+        <button onclick="showPage(1)" class="button">I</button>
+        <button onclick="showPage(2)" class="button">II</button>
+        <button onclick="showPage(3)" class="button">III</button>
+        <button onclick="showPage(4)" class="button">IV</button>
+        <button onclick="showPage(4)" class="button">Next</button>
+    </div>
+
+</div>
+
+
+<div id="page4" class="page">
+
+    <h2 style="font-size: 150PX;">Active Buttons</h2>
+
+    <img src="collar.jpg" style="width:150px;">
+    <center>
+    <div class="spacing">
+    <button class="uber-button">Uber</button>
+    <button class="amazon">Amazon</button>
+    <button class="github">GitHub</button>
+    </div>
+
+    <div class="lowerspacing">
+        <a><button class="bootstrap">Get started</button><button class="bootstrap-invert">Download</button></a>
+        <a><button class="linkedin">Apply to company website</button><button class="linkedin-invert">Save</button></a>
+    </div>
+    <img src="silly.jpg" style="width:150px;">
+
+    <p>Thank you for viewing!</p>
+
+    <div class="pagination">
+        <button onclick="showPage(1)" class="button">I</button>
+        <button onclick="showPage(2)" class="button">II</button>
+        <button onclick="showPage(3)" class="button">III</button>
+        <button onclick="showPage(4)" class="button">IV</button>
+        <button onclick="showPage(3)" class="button">Back</button>
+    </div>
+    </center>
+</div>
+
+
+<script>
+
+function showPage(pageNumber) {
+    document.querySelectorAll(".page").forEach(p => p.classList.remove("active"));
+
+    const pageId = pageNumber === 0 ? "loginPage" : "page" + pageNumber;
+
+    document.getElementById(pageId).classList.add("active");
+}
+
+function togglePassword() {
+    const pwd = document.getElementById("password");
+    pwd.type = pwd.type === "password" ? "text" : "password";
+}
+
+</script>
+
+</body>
+</html>
